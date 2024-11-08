@@ -22,6 +22,7 @@ export const axiosInstance = axios.create({
     'Content-Type': 'application/json', // Set default headers for JSON requests
   },
   timeout: 5000, // Optional timeout setting (5 seconds here)
+  withCredentials: true,  // Make sure cookies are sent with requests
 });
 
 // apiConnector function for making API requests
