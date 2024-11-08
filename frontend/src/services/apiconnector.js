@@ -16,7 +16,8 @@ import axios from "axios";
 
 // Create an axios instance with a base URL
 export const axiosInstance = axios.create({
-  baseURL: 'http://localhost:4000/api/v1', // Adjust this if your server uses a different base URL
+  // baseURL: 'http://localhost:4000/api/v1', // Adjust this if your server uses a different base URL
+  baseURL: 'https://ed-up-backend.vercel.app/', // Adjust this if your server uses a different base URL
   headers: {
     'Content-Type': 'application/json', // Set default headers for JSON requests
   },
