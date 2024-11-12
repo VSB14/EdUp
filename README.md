@@ -5,7 +5,7 @@ Here's a rephrased version of the README file for the EdUp EdTech platform. The 
 # EdUp - Your Learning Hub  
 🚀 [Access the Platform](https://ed-up.vercel.app/)
 
-![Platform Preview](images/mainpage.png)
+
 
 EdUp is a comprehensive educational platform where users can create, explore, and review various learning resources. Leveraging the MERN stack (MongoDB, Express, React, Node.js), EdUp offers a dynamic learning experience suited for both students and educators.
 
@@ -81,19 +81,19 @@ The back end, built with Node.js and Express, provides a robust API structure fo
 
 MongoDB is utilized for data management, storing information such as user profiles, courses, and ratings. Its schema flexibility supports the platform’s needs for handling various types of content.
 
-![Database Structure](images/schema.png)
+![Database Structure](frontend\images\schema.png)
 
 ### Architecture Overview
 
 Below is a high-level diagram of EdUp’s architecture:
 
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](frontend\images\architecture.png)
 
 ## API Specifications
 
 The platform’s API is RESTful, built with Node.js and Express, and utilizes JSON for data exchange. Standard HTTP methods (GET, POST, PUT, DELETE) facilitate operations across users, courses, and other platform entities.
 
-For full API specifications, visit [API Documentation](/api-docs).
+
 
 ## Setup Guide
 
